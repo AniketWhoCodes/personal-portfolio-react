@@ -1,11 +1,10 @@
-import './App.css'
+import "./App.css";
+import Hero from "./components/Hero/Hero";
 
 export default function App() {
   return (
     <>
-    <section className='bg-blue-700 min-h-screen'>
-      Hello
-    </section>
+      <Hero />
     </>
-  )
+  );
 }
