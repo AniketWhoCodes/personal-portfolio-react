@@ -1,7 +1,7 @@
 import { Nav, Logo, NavMenu, NavLink, NavBtn, Bars } from "./HeaderElement";
 import logo from "../../assets/logo.png";
 
-export default function Header({ toggle }) {
+export default function Header({ toggle }: { toggle: any }) {
   return (
     <div className="Container" style={{ padding: 0 }}>
       <Nav>
