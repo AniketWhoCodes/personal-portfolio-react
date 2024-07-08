@@ -1,4 +1,4 @@
-import { ProjectList } from "../../../data/ProjectData";
+import { ProjectList } from "../../../data/Data";
 import {
   Card,
   CardLeft,
