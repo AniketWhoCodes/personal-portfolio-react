@@ -1,24 +1,21 @@
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import styled from "@emotion/styled";
-import ScrollAnimation from "react-animate-on-scroll";
 
 export default function FixSocialIcon() {
   return (
     <SocialContainer>
-      <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
-        <ul>
-          <li className="item">
-            <a href="#" target="_blank" rel="noopener noreferrer">
-              <FaLinkedin />
-            </a>
-          </li>
-          <li className="item">
-            <a href="#" target="_blank" rel="noopener noreferrer">
-              <FaGithub />
-            </a>
-          </li>
-        </ul>
-      </ScrollAnimation>
+      <ul>
+        <li className="item">
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <FaLinkedin />
+          </a>
+        </li>
+        <li className="item">
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <FaGithub />
+          </a>
+        </li>
+      </ul>
     </SocialContainer>
   );
 }
