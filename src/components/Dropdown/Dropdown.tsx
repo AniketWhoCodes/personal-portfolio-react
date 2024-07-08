@@ -37,7 +37,7 @@ export default function Dropdown({
   );
 }
 
-const SiderBar = styled.div`
+const SiderBar = styled.div<SidebarProps>`
   background: #151418;
   position: fixed;
   height: 100%;
@@ -89,3 +89,8 @@ export const NavBtn = styled.div`
   margin-top: 5rem;
   font-size: 1.7rem;
 `;
+
+interface SidebarProps {
+  isOpen: boolean;
+  onClick: () => void;
+}
