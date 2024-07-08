@@ -70,7 +70,7 @@ export const TechCardContainer = styled.div`
 `;
 
 export const TechCard = styled.div`
-  border-radius: 10px;
+  border-radius: 3px;
   background-color: #f5f5f5;
   padding: 5px 10px;
   margin: 5px;
@@ -81,5 +81,4 @@ export const TechCard = styled.div`
   font-weight: 400;
   color: rgba(0, 0, 0, 0.815);
   cursor: default;
-  box-shadow: 0px 2px 5px rgba(160, 170, 180, 0.6);
 `;
