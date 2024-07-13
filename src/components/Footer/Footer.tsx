@@ -1,5 +1,4 @@
 import styled from "@emotion/styled";
-import footerWave from "../../assets/footer_wave.svg";
 
 export default function Footer() {
   return (
@@ -10,7 +9,7 @@ export default function Footer() {
 }
 
 const FooterSection = styled.div`
-  background-image: url(${footerWave});
+  background-image: url(/assets/footer_wave.svg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;

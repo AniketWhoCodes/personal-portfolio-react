@@ -10,7 +10,6 @@ import {
 } from "./HeroElements";
 import { useState } from "react";
 import manSvg from "./../../assets/man-svgrepo-com.svg";
-import scrollDownImg from "../../assets/scroll-down.svg";
 import Header from "../Header/Header";
 import Dropdown from "../Dropdown/Dropdown";
 
@@ -90,7 +89,7 @@ export default function Hero() {
           <ScrollDown to="projects" id="scrollDown">
             <ScrollLink>
               Scroll down
-              <img src={scrollDownImg} alt="scroll-down" />
+              <img src="/assets/scroll-down.svg" alt="scroll-down" />
             </ScrollLink>
           </ScrollDown>
         )}
